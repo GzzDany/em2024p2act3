@@ -106,8 +106,8 @@ def input_cube_game(num_tests=15):
     ### sol args contains {"num_cubes" and "human_turn" as keys. 
     ### seeds are the seed values. 
     ### input values needs to be a list of lists of strings to type in. 
-    seed_value_pairs = {1161384037: (12, False), 884250324: (14, True), 1683279519: (10, False), 1623396223: (>
-                        973648171: (11, True), 627050995: (12, True), 1398912615: (15, True), 392286598: (10, >
+    seed_value_pairs = {1161384037: (12, False), 884250324: (14, True), 1683279519: (10, False), 1623396223: (14, False)
+                        973648171: (11, True), 627050995: (12, True), 1398912615: (15, True), 392286598: (10, True)
                         900069285: (13, False), 1999589752: (13, True)}
     sol_args = []
     seeds = []
