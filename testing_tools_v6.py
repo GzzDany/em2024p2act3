@@ -1,13 +1,13 @@
 def get_function(act_name, func_name):
-    text = "from hidden_tests_" + act_name + " import sol_" + func_name
+    text = "from em2024p2act3.hidden_tests_" + act_name + " import sol_" + func_name
     import importlib
-    module = importlib.import_module("hidden_tests_"+act_name)
+    module = importlib.import_module("em2024p2act3.hidden_tests_"+act_name)
     return getattr(module, "sol_"+func_name)
 
 def get_input(act_name, func_name):
-    text = "from hidden_tests_" + act_name + " import input_" + func_name
+    text = "from em2024p2act3.hidden_tests_" + act_name + " import input_" + func_name
     import importlib
-    module = importlib.import_module("hidden_tests_"+act_name)
+    module = importlib.import_module("em2024p2act3.hidden_tests_"+act_name)
     return getattr(module, "input_"+func_name)()
 
 def get_seed_value_pairs(**args):
