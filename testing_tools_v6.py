@@ -128,4 +128,4 @@ def compare_interactive_randomized_function(act_name, func_name, global_vars, nu
         exp_interaction = "\n".join(exp_pi.captured_lines)
         real_interaction = "\n".join(real_pi.captured_lines)
         assert exp_interaction == real_interaction, message + "Your function returned: \n" + real_interaction + "\n\nExpected:\n" + exp_interaction
-      return
+    return
